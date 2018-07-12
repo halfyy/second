@@ -20,34 +20,36 @@
         </div>
         
         <div class="col offset-lg-2 hide-on-small-only row">
-            <a href="/main" class="text-light btn col-3">Home</a>
+            <a href="/mainUser" class="text-light btn col-3">Home</a>
             <div class="dropdown text-light col-3">
                 <button class="btn dropdown-toggle text-light bgcol1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     More
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#!">Feed</a>
+                    <a class="dropdown-item" href="/feedUser">Feed</a>
                     <a class="dropdown-item" href="#!">ss</a>
                     <a class="dropdown-item" href="#!">ss</a>
                 </div>
             </div>
-            <a href="" class="text-light btn col-3 disabled">Profile</a>
+            <a href="/profileUser" class="text-light btn col-3 disabled">Profile</a>
+            <a href="/" class="btn text-light col">Log Out</a>
         </div>
     </div>
     
     <div class="container mt-5">
         <div class="row">
             <div class="card col-3 offset-1">
-                <img class="card-img-top" src="" alt="USER IMG">
+                <img class="card-img-top" src="/img/1needy.png" alt="USER IMG">
             </div>
             <div class="text-dark text-center col-6 card offset-1">
                 <div class="card-body">
                     <p class="h1">User</p>
                     <div class="row">
-                        <p class="h3 col card"> Age : 57 </p>
-                        
+                        <p class="h3 col card"> Someoneov Someone Someoneovich </p>
                         <div class="w-100"></div>
-                        
+                        <p class="h3 col card"> Age : 57 </p>
+                        <div class="w-100"></div>
+                        <p class="h3 col card"> Phone : +7(914) 335-85-95 </p>
                     </div>
                 </div>
                 

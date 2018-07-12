@@ -15,24 +15,26 @@
 </head>
 <body class="bg-custom1">   
         
-    <div class="row align-items-center sticky-top w-100 bg-col1 shadow" style="background-color:#6633ff" id="header">
+    <div class="row align-items-center sticky-top w-100 shadow bgcol1" id="header">
         <img src="/img/logo.png" class="col-1 pa" style="left:15%;">
-        <div class="col col-md-4 offset-4 offset-md-2 offset-lg-1">
+        <div class="col col-md-3 offset-3 offset-lg-1 row">
             <h1 class="offset-lg-3 pt-2" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">HOHelp</h1>
         </div>
+        
         <div class="col offset-lg-2 hide-on-small-only row">
-            <a href="homepage.html" class="text-light btn col-3">Home</a>
-            <div class="dropdown text-light col-3">
-                <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    .......
+            <a href="/mainUser" class="text-light btn col">Home</a>
+            <div class="dropdown text-light col">
+                <button class="btn dropdown-toggle text-light bgcol1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#!">ss</a>
+                    <a class="dropdown-item disabled" href="feedUser">Feed</a>
                     <a class="dropdown-item" href="#!">ss</a>
                     <a class="dropdown-item" href="#!">ss</a>
                 </div>
             </div>
-            <a href="#!" class="text-light btn col-3">Contacts</a>
+            <a href="/profileUser" class="text-light btn col">Profile</a>
+            <a href="/" class="btn text-light col">Log Out</a>
         </div>
     </div>
     
