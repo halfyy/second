@@ -14,8 +14,8 @@
 Route::get('/', function () {
     return view('login');
 });
-Route::get('/main', function () {
-    return view('main');
+Route::get('/mainUser', function () {
+    return view('mainUser');
 });
 Route::get('/profileUser', function () {
     return view('profileUser');
@@ -24,6 +24,6 @@ Route::get('/profileUser', function () {
 
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/user-feed',function(){
-    return view('user-feed');
+Route::get('/feedUser',function(){
+    return view('feedUser');
 });
