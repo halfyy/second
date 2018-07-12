@@ -37,9 +37,15 @@
     <div class="container mt-5">
         <div class="card container pt-3">
             <div class="card-body">
-                <button class="btn-primary btn col-10 offset-1 pt-3 pb-3 btn-circle">
+                <button class="btn-primary btn col-10 offset-1 pt-3 pb-3">
                     <p class="fs-60" style="font-family: 'Exo 2', sans-serif;">
                         Register
+                    </p>
+                </button>
+                <p class="fs-40 col text-center">or</p>
+                <button class="btn-primary btn col-6 offset-3 pt-2 pb-2">
+                    <p class="fs-40" style="font-family: 'Exo 2', sans-serif;">
+                        Login
                     </p>
                 </button>
             </div>
