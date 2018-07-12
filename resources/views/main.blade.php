@@ -12,19 +12,18 @@
     <link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/gif">
     <link href="https://fonts.googleapis.com/css?family=Exo+2:700|Exo:900i" rel="stylesheet">
 </head>
-<body>   
+<body class="bg-custom1">   
         
     <div class="row align-items-center sticky-top w-100" style="background-color:#6633ff" id="header">
         <img src="/img/logo.png" class="col-1 pa" style="left:15%;">
         <div class="col col-md-3 offset-3 offset-lg-1 row">
-            
             <h1 class="offset-lg-3 pt-2" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">WWHelp</h1>
         </div>
         
         <div class="col offset-lg-2 hide-on-small-only row">
             <a href="homepage.html" class="text-light btn col-3">Home</a>
             <div class="dropdown text-light col-3">
-                <button class="btn dropdown-toggle text-light" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #6633ff;">
+                <button class="btn dropdown-toggle text-light bgcol1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     .......
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
