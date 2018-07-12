@@ -37,17 +37,17 @@
     <div class="container mt-5">
         <div class="card container pt-3">
             <div class="card-body">
-                <button class="btn col-10 offset-1 pt-3 pb-3 bgcol1 text-light">
+                <a class="btn-register btn col-10 offset-1 pt-3 pb-3 bgcol1 text-light shadow-lg" href="/register">
                     <p class="fs-60" style="font-family: 'Exo 2', sans-serif;">
                         Register
                     </p>
-                </button>
+                </a>
                 <p class="fs-40 col text-center">or</p>
-                <button class="btn col-6 offset-3 pt-2 pb-2 bgcol1 text-light">
+                <a class="btn col-6 offset-3 pt-2 pb-2 bgcol1 text-light shadow-lg">
                     <p class="fs-40" style="font-family: 'Exo 2', sans-serif;">
                         Login
                     </p>
-                </button>
+                </a>
             </div>
         </div>
     </div>
@@ -56,7 +56,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script>
-      
     </script>
 </body>
 </html>
