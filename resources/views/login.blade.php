@@ -77,8 +77,8 @@
                   <div class="card shadow-lg">
                     <img class="card-img-top" src="/img/3 img.png" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <h5 class="card-title">Help to needy</h5>
+                      <p class="card-text">If you become a volunteer, you can help those in need</p>
                     </div>
                     <div class="card-footer">
                       <small class="text-muted">Last updated 3 mins ago</small>
