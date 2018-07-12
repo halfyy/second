@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link type="text/css" href="css/style.css" rel="stylesheet">
+    <link type="text/css" href="/css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Rock+Salt|The+Girl+Next+Door" rel="stylesheet">
@@ -12,9 +12,9 @@
     <link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/gif">
     <link href="https://fonts.googleapis.com/css?family=Exo+2:700|Exo:900i" rel="stylesheet">
 </head>
-<body>   
+<body class="bg-custom1">   
         
-    <div class="row align-items-center sticky-top w-100" style="background-color:#6633ff" id="header">
+    <div class="row align-items-center sticky-top w-100 bg-col1" style="background-color:#6633ff" id="header">
         <div class="col col-md-4 offset-4 offset-md-2 offset-lg-1">
             <h1 class="offset-lg-3 pt-2" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">WWHelp</h1>
         </div>
@@ -37,7 +37,7 @@
     <div class="container mt-5">
         <div class="card container pt-3">
             <div class="card-body">
-                <button class="btn-primary btn col-10 offset-1 pt-3 pb-3">
+                <button class="btn-primary btn col-10 offset-1 pt-3 pb-3 bgcol1">
                     <p class="fs-60" style="font-family: 'Exo 2', sans-serif;">
                         Register
                     </p>
@@ -56,9 +56,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script>
-        $('.carousel').carousel({
-            interval: 2000;
-        });
+      
     </script>
 </body>
 </html>

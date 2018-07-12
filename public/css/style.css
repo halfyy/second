@@ -1,8 +1,8 @@
-
 .bg-custom1{
-    background-image: url(../../public/img/bg-custom1.png);
-    height:30%;
-    background-size: 100% 100%;
+    background-image: url(/img/bg-custom1.png);
+    height:100%;
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
 }
 .bgcol1{
     background-color: #6633ff;
