@@ -1,0 +1,134 @@
+.bg1{
+    background-image: url(/img/bgHomeP.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 400px !important;
+}
+.bg2{
+    background-image: url(/img/bgtTrips.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 550px !important;
+}
+.bg-custom1{
+    background-image: url(../../public/img/bg-custom1.png);
+    height:30%;
+    background-size: 100% 100%;
+}
+.fs-30{
+    font-size:20px;
+}
+.fs-30{
+    font-size:30px;
+}
+.fs-40{
+    font-size:40px;
+}
+.fs-50{
+    font-size:50px;
+}
+.fs-60{
+    font-size:60px;
+}
+.fs-70{
+    font-size:70px;
+}
+.h300{
+    height:500px;
+}
+.pt-10{
+    padding-top:10%;
+}
+.pt-15{
+    padding-top:13%;
+}
+@media only screen and (min-width: 993px) {
+  .jir {
+    font-size:90px !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .pjir {
+    font-size:50px !important;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .nejir {
+    font-size:20px !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .pnejir {
+    font-size:15px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hide-on-small-only, .hide-on-small-and-down {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .hide-on-med-and-down {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .hide-on-med-and-up {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .hide-on-med-only {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .hide-on-large-only {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .show-on-large {
+    display: block !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .show-on-medium {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .show-on-small {
+    display: block !important;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .show-on-medium-and-up {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .show-on-medium-and-down {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .center-on-small-only {
+    text-align: center;
+  }
+}
+.pa{
+    position:absolute;
+    width:5%;
+    height:5%;
+}
