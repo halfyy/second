@@ -37,14 +37,20 @@
     
     <div class="container mt-5">
         <div class="row">
-            <div class="card col-4">
+            <div class="card col-3 offset-1">
                 <img class="card-img-top" src="" alt="USER IMG">
             </div>
-            <div class="text-dark text-center col">
-                <p class="h2">User</p>
-                <p class="h4 pt-3">Someoneov Someone Someonovich</p>
-                <p class="text-grey">Oldest Dragonborn Dovakin!</p>
-                <p class=""></p>
+            <div class="text-dark text-center col-6 card offset-1">
+                <div class="card-body">
+                    <p class="h1">User</p>
+                    <div class="row">
+                        <p class="h3 col card"> Age : 57 </p>
+                        
+                        <div class="w-100"></div>
+                        
+                    </div>
+                </div>
+                
             </div>
             
         </div>
