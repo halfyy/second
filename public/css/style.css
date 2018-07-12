@@ -1,19 +1,11 @@
-.bg1{
-    background-image: url(/img/bgHomeP.jpg) !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    height: 400px !important;
-}
-.bg2{
-    background-image: url(/img/bgtTrips.jpg) !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    height: 550px !important;
-}
+
 .bg-custom1{
     background-image: url(../../public/img/bg-custom1.png);
     height:30%;
     background-size: 100% 100%;
+}
+.bgcol1{
+    background-color: #6633ff;
 }
 .fs-30{
     font-size:20px;
@@ -40,7 +32,7 @@
     padding-top:10%;
 }
 .pt-15{
-    padding-top:13%;
+    padding-top:15%;
 }
 @media only screen and (min-width: 993px) {
   .jir {

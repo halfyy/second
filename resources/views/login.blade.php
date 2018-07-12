@@ -10,12 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WWHelp</title>
     <link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/gif">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:700|Exo:900i" rel="stylesheet">
 </head>
 <body>   
         
-    <div class="row bg-primary align-items-center sticky-top w-100"  id="header">
+    <div class="row align-items-center sticky-top w-100" style="background-color:#6633ff" id="header">
         <div class="col col-md-4 offset-4 offset-md-2 offset-lg-1">
-            <h1 class="offset-lg-3" style="color:ghostwhite;" class="col">WWHelp</h1>
+            <h1 class="offset-lg-3 pt-2" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">WWHelp</h1>
         </div>
         <div class="col offset-lg-2 hide-on-small-only row">
             <a href="homepage.html" class="text-light btn col-3">Home</a>
@@ -37,7 +38,7 @@
         <div class="card container pt-3">
             <div class="card-body">
                 <button class="btn-primary btn col-10 offset-1 pt-3 pb-3 btn-circle">
-                    <p class="fs-60">
+                    <p class="fs-60" style="font-family: 'Exo 2', sans-serif;">
                         Register
                     </p>
                 </button>
