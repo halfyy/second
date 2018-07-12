@@ -5,7 +5,6 @@
     <link type="text/css" href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Rock+Salt|The+Girl+Next+Door" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WWHelp</title>
@@ -14,7 +13,7 @@
 </head>
 <body class="bg-custom1">   
         
-    <div class="row align-items-center sticky-top w-100" style="background-color:#6633ff" id="header">
+    <div class="row align-items-center sticky-top w-100 shadow" style="background-color:#6633ff" id="header">
         <img src="/img/logo.png" class="col-1 pa" style="left:15%;">
         <div class="col col-md-3 offset-3 offset-lg-1 row">
             <h1 class="offset-lg-3 pt-2" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">WWHelp</h1>
