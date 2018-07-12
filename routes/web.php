@@ -21,3 +21,6 @@ Route::get('/main', function () {
 
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/user-feed',function(){
+    return view('user-feed');
+});

@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="SHORTCUT ICON" href="/img/favicon.ico" type="image/gif">
     <link type="text/css" href="/css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
@@ -14,9 +15,10 @@
 </head>
 <body class="bg-custom1">   
         
-    <div class="row align-items-center sticky-top w-100 bg-col1" style="background-color:#6633ff" id="header">
+    <div class="row align-items-center sticky-top w-100 bg-col1 shadow" style="background-color:#6633ff" id="header">
+        <img src="/img/logo.png" class="col-1 pa" style="left:15%;">
         <div class="col col-md-4 offset-4 offset-md-2 offset-lg-1">
-            <h1 class="offset-lg-3 pt-2" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">WWHelp</h1>
+            <h1 class="offset-lg-3 pt-2" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">HOHelp</h1>
         </div>
         <div class="col offset-lg-2 hide-on-small-only row">
             <a href="homepage.html" class="text-light btn col-3">Home</a>
@@ -39,11 +41,11 @@
             <div class="card-body">
                 <a class="btn-register btn col-10 offset-1 pt-3 pb-3 bgcol1 text-light shadow-lg" href="/register">
                     <p class="fs-60" style="font-family: 'Exo 2', sans-serif;">
-                        Register
+                        Sign Up
                     </p>
                 </a>
                 <p class="fs-40 col text-center">or</p>
-                <a class="btn col-6 offset-3 pt-2 pb-2 bgcol1 text-light shadow-lg">
+                <a href="/login" class="btn col-6 offset-3 pt-2 pb-2 bgcol1 text-light shadow-lg">
                     <p class="fs-40" style="font-family: 'Exo 2', sans-serif;">
                         Login
                     </p>
