@@ -18,7 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('login');
             $table->string('password');
             $table->string('email');
-            $table->integer('request_id')
+            $table->integer('request_id');
             $table->timestamps();
         });
     }

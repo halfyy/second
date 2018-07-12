@@ -59,12 +59,10 @@
                     <div class="card-body">
                       <h5 class="card-title">Help to needy</h5>
                       <p class="card-text">If you become a volunteer, you can help those in need</p>
-<<<<<<< HEAD
                     </div>
                     <div class="card-footer">
                       <small class="text-muted">Last updated 3 mins ago</small>
-=======
->>>>>>> 386abb82c738ea222a750a64a2cf184985a4d412
+
                     </div>
                   </div>
 </div>
