@@ -35,7 +35,6 @@
             <a href="#!" class="text-light btn col-3">Contacts</a>
         </div>
     </div>
-    
     <div class="container mt-5">
         <div class="card container pt-3">
             <div class="card-body">
@@ -53,6 +52,43 @@
             </div>
         </div>
     </div>
+    <div class="container mt-5">
+        <div class="container pt-3">
+            <div class="card-deck">
+                  <div class="card shadow-lg">
+                    <img class="card-img-top" src="/img/1 img.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Get help from volunteers</h5>
+                      <p class="card-text">You can get free help from volunteers in our website. You should register to do this.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card shadow-lg">
+                    <img class="card-img-top" src="/img/2 img.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card shadow-lg">
+                    <img class="card-img-top" src="/img/3 img.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+</div>
+        </div>
+    </div>
+    
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
