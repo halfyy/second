@@ -16,7 +16,7 @@
     <div class="row align-items-center sticky-top w-100 shadow bgcol1" id="header">
         <img src="/img/logo.png" class="col-1 pa l-15">
         <div class="col col-md-3 offset-3 offset-lg-1 row">
-            <a class="offset-lg-3 pt-2 fs-40" href="/mainUser" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">HOHelp</a>
+            <a class="offset-lg-3 pt-2 fs-40" href="/mainUser" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">HandOfHelp</a>
         </div>
         
         <div class="col offset-lg-2 hide-on-small-only row">
@@ -63,8 +63,8 @@
         </div>
         <div class="card col-10 offset-1 mt-4">
             <div class="card-body">
-                <p class="h1">About me</p>
-                <p class="h4"> weak legs and spine, alone</p>
+                <p class="h1">About me:</p>
+                <p class="h4"></p>
             </div>
         </div>
     </div>
