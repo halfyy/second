@@ -19,8 +19,9 @@
         <img src="/img/logo.png" class="col-1 pa" style="left:15%;">
         <div class="col col-md-3 offset-3 offset-lg-1 row">
             <h1 class="offset-lg-3 pt-2" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">HOHelp</h1>
-        </div>  
+        </div>
     </div>
+    
     
     <!-- Login and reg btn -->
     <div class="container mt-5">
@@ -45,7 +46,7 @@
     <div class="container mt-5">
         <div class="container pt-3">
             <div class="card-deck">
-                  <div class="card shadow-lg">
+                  <div class="card shadow-lg card-class">
                     <img class="card-img-top" src="/img/1 img.png" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Get help from volunteers</h5>
@@ -55,14 +56,14 @@
                   <div class="card shadow-lg">
                     <img class="card-img-top" src="/img/2 img.png" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <h5 class="card-title">Change your Life</h5>
+                      <p class="card-text">We only have one life. So why not change it right now? Do good!</p>
                     </div>
                   </div>
                   <div class="card shadow-lg">
                     <img class="card-img-top" src="/img/3 img.png" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title">Help to needy</h5>
+                      <h5 class="card-title">Help to Needy</h5>
                       <p class="card-text">If you become a volunteer, you can help those in need</p>
                     </div>
                     <div class="card-footer">

@@ -63,8 +63,8 @@
         </div>
         <div class="card col-10 offset-1 mt-4">
             <div class="card-body">
-                <p class="h1">About me</p>
-                <p class="h4"> weak legs and spine, alone</p>
+                <p class="h1">About me:</p>
+                <p class="h4"></p>
             </div>
         </div>
     </div>
@@ -75,7 +75,7 @@
                 <p class="h2 text-center">
                     You haven't made any requests yet
                 </p>
-                <a href="" class="btn bgcol1 text-light col-4 offset-4">Make Request</a>    
+                <a href="/createRequest" class="btn bgcol1 text-light col-4 offset-4">Make Request</a>    
             </div>
         </div> 
     </div>

@@ -59,7 +59,40 @@
                         <div class="container mt-4">
                             <div class="card bg-secondary">
                                 <div class="card-body">
-                                    <p class="h2 text-light"> You have no requests yet </p>
+                                    <div class="row mt-3 bg-white card">
+                                        <img src="/img/avatar.png" class="h-100 col-4">
+                                        <div class="card-body">
+                                            <div class="text-grey col">
+                                                <p class="h2"> Mark Brown </p>
+                                                <p class="h5"> volunteer </p>
+                                                <a href="/profileVol" class="text-light btn btn-primary">Check profile</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-body col">
+                                            <div class="text-grey col">
+                                                <p class="h4 mt-4"> Want's help you </p>
+                                            </div>
+                                            <button type="button" class="btn btn-success">Accept</button>
+                                            <button type="button" class="btn btn-danger ml-5">Decline</button>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3 bg-white card">
+                                        <img src="/img/avatar.png" class="h-100 col-4">
+                                        <div class="card-body">
+                                            <div class="text-grey col">
+                                                <p class="h2"> Mark Brown </p>
+                                                <p class="h5"> volunteer </p>
+                                                <a href="/profileVol" class="text-light btn btn-primary">Check profile</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-body col">
+                                            <div class="text-grey col">
+                                                <p class="h4 mt-4"> Want's help you </p>
+                                            </div>
+                                            <button type="button" class="btn btn-success">Accept</button>
+                                            <button type="button" class="btn btn-danger ml-5">Decline</button>
+                                        </div>
+                                    </div>
                                 </div>   
                             </div>
                         </div>  
