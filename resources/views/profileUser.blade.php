@@ -53,9 +53,9 @@
                     <div class="row">
                         <p class="h3 col card"> {{ Auth::user()->name }} {{ Auth::user()->second_name }}</p>
                         <div class="w-100"></div>
-                        <p class="h3 col card mt-2"> {{ Auth::user()->age }} </p>
+                        <p class="h3 col card mt-2">Age: {{ Auth::user()->age }} </p>
                         <div class="w-100"></div>
-                        <p class="h3 col card mt-2"> Phone : {{ Auth::user()->phone }} </p>
+                        <p class="h3 col card mt-2"> Email : {{ Auth::user()->email }} </p>
                     </div>
                 </div>
             </div>
