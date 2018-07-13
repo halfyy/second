@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Rock+Salt|The+Girl+Next+Door" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WWHelp</title>
+    <title>HOHelp</title>
     <link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/gif">
     <link href="https://fonts.googleapis.com/css?family=Exo+2:700|Exo:900i" rel="stylesheet">
 </head>
@@ -38,7 +38,23 @@
         </div>
     </div>
     
-    <h1 style="font-family: 'Exo', sans-serif; text-align: center; margin-top:2%; color:white;">Accepted Request</h1>
+    
+    
+    <div class="container mt-5">
+        <h1 style="font-family: 'Exo', sans-serif; text-align: center; margin-top:2%; color:white;">Accepted Request</h1>
+        <div class="row">
+            <div class="card col-9 mt-3">
+                <div class="row">
+                    <img src="/img/1 vol.jpg" class="h-100 col-3">
+                    <div class="card-body">
+                        <div class="text-grey col">
+                            <p class="h1"> Jared Lont </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
