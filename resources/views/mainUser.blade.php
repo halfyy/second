@@ -11,6 +11,8 @@
     <link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/gif">
     <link href="https://fonts.googleapis.com/css?family=Exo+2:700|Exo:900i" rel="stylesheet">
 </head>
+
+    /* ss */
 <body class="bg-custom1">   
         
     <div class="row align-items-center sticky-top w-100 shadow bgcol1" id="header">
