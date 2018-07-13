@@ -14,9 +14,9 @@
 <body class="bg-custom1">   
         
     <div class="row align-items-center sticky-top w-100 shadow bgcol1" id="header">
-        <img src="/img/logo.png" class="col-1 pa" style="left:15%;">
+        <img src="/img/logo.png" class="col-1 pa l-15">
         <div class="col col-md-3 offset-3 offset-lg-1 row">
-            <h1 class="offset-lg-3 pt-2" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">HOHelp</h1>
+            <a class="offset-lg-3 pt-2 fs-40" href="/mainUser" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">HOHelp</a>
         </div>
         
         <div class="col offset-lg-2 hide-on-small-only row">
@@ -51,11 +51,11 @@
                 <div class="card-body">
                     <p class="h1">User</p>
                     <div class="row">
-                        <p class="h3 col card"> {{ Auth::user()->name }} </p>
+                        <p class="h3 col card"> {{ Auth::user()->name }} {{ Auth::user()->second_name }}</p>
                         <div class="w-100"></div>
-                        <p class="h3 col card mt-2"> Age : 57 </p>
+                        <p class="h3 col card mt-2">Age: {{ Auth::user()->age }} </p>
                         <div class="w-100"></div>
-                        <p class="h3 col card mt-2"> Phone : +7(914) 335-85-95 </p>
+                        <p class="h3 col card mt-2"> Email : {{ Auth::user()->email }} </p>
                     </div>
                 </div>
             </div>
