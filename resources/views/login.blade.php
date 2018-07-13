@@ -65,6 +65,10 @@
                       <h5 class="card-title">Help to needy</h5>
                       <p class="card-text">If you become a volunteer, you can help those in need</p>
                     </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+
+                    </div>
                   </div>
             </div>
         </div>

@@ -51,7 +51,7 @@
                 <div class="card-body">
                     <p class="h1">User</p>
                     <div class="row">
-                        <p class="h3 col card"> Someoneov Someone Someoneovich </p>
+                        <p class="h3 col card"> {{ Auth::user()->name }} </p>
                         <div class="w-100"></div>
                         <p class="h3 col card mt-2"> Age : 57 </p>
                         <div class="w-100"></div>
