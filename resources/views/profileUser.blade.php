@@ -56,7 +56,7 @@
                         <div class="w-100"></div>
                         <p class="h3 col card mt-2">Age: {{ Auth::user()->age }} </p>
                         <div class="w-100"></div>
-                        <p class="h3 col card mt-2"> Phone : {{ Auth::user()->phone }} </p>
+                        <p class="h3 col card mt-2"> E-mail : {{ Auth::user()->email }} </p>
                     </div>
                 </div>
             </div>
