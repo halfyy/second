@@ -13,7 +13,7 @@
 </head>
 <body class="bg-custom1">   
         
-    <div class="row align-items-center sticky-top w-100 shadow" style="background-color:#6633ff" id="header">
+    <div class="row align-items-center sticky-top w-100 shadow bgcol1" id="header">
         <img src="/img/logo.png" class="col-1 pa" style="left:15%;">
         <div class="col col-md-3 offset-3 offset-lg-1 row">
             <h1 class="offset-lg-3 pt-2" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">HOHelp</h1>
@@ -26,36 +26,57 @@
                     More
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item disabled" href="">{{ Auth::user()->name }}</a>
+                    <a class="dropdown-item" href="/profileUser">Profile</a>
                     <a class="dropdown-item" href="/feedUser">Feed</a>
-                    <a class="dropdown-item" href="#!">ss</a>
-                    <a class="dropdown-item" href="#!">ss</a>
                 </div>
             </div>
-            <a href="/profileUser" class="text-light btn col-3 disabled">Profile</a>
-            <a href="/" class="btn text-light col">Log Out</a>
+            <div class="btn col-3" aria-labelledby="navbarDropdown">
+                <a class="text-light" href="{{ route('logout') }}"onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                    {{ __('Logout') }}
+                </a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+            </div>
         </div>
     </div>
     
     <div class="container mt-5">
         <div class="row">
             <div class="card col-3 offset-1">
-                <img class="card-img-top" src="/img/1needy.png" alt="USER IMG">
+                <img class="col-12 mb-3" src="/img/ 1needy.jpg">
             </div>
             <div class="text-dark text-center col-6 card offset-1">
                 <div class="card-body">
                     <p class="h1">User</p>
                     <div class="row">
-                        <p class="h3 col card"> Someoneov Someone Someoneovich </p>
+                        <p class="h3 col card"> {{ Auth::user()->name }} </p>
                         <div class="w-100"></div>
-                        <p class="h3 col card"> Age : 57 </p>
+                        <p class="h3 col card mt-2"> Age : 57 </p>
                         <div class="w-100"></div>
-                        <p class="h3 col card"> Phone : +7(914) 335-85-95 </p>
+                        <p class="h3 col card mt-2"> Phone : +7(914) 335-85-95 </p>
                     </div>
                 </div>
-                
             </div>
-            
         </div>
+        <div class="card col-10 offset-1 mt-4">
+            <div class="card-body">
+                <p class="h1">About me</p>
+                <p class="h4"> weak legs and spine, alone</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mt-5">
+        <div class="card h-500">
+            <div class="card-body text center border-dark">
+                <p class="h2 text-center">
+                    You haven't made any requests yet
+                </p>
+                <a href="" class="btn bgcol1 text-light col-4 offset-4">Make Request</a>    
+            </div>
+        </div> 
     </div>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

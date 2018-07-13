@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Exo+2:700|Exo:900i" rel="stylesheet">
 </head>
 <body class="bg-custom1">   
-        
+<!-- -->
     <div class="row align-items-center sticky-top w-100 shadow bgcol1" id="header">
         <img src="/img/logo.png" class="col-1 pa" style="left:15%;">
         <div class="col col-md-3 offset-3 offset-lg-1 row">
@@ -22,19 +22,25 @@
         </div>
         
         <div class="col offset-lg-2 hide-on-small-only row">
-            <a href="/mainUser" class="text-light btn col">Home</a>
-            <div class="dropdown text-light col">
+            <a href="" class="text-light btn col-3">Home</a>
+            <div class="dropdown text-light col-3">
                 <button class="btn dropdown-toggle text-light bgcol1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     More
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item disabled" href="feedUser">Feed</a>
-                    <a class="dropdown-item" href="#!">ss</a>
-                    <a class="dropdown-item" href="#!">ss</a>
+                    <a class="dropdown-item disabled" href="">{{ __('Login') }}</a>
+                    <a class="dropdown-item" href="/profileUser">Profile</a>
+                    <a class="dropdown-item" href="/feedUser">Feed</a>
                 </div>
             </div>
-            <a href="/profileUser" class="text-light btn col">Profile</a>
-            <a href="/" class="btn text-light col">Log Out</a>
+            <div class="btn col-3" aria-labelledby="navbarDropdown">
+                <a class="text-light" href="{{ route('logout') }}"onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                    {{ __('Logout') }}
+                </a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+            </div>
         </div>
     </div>
     

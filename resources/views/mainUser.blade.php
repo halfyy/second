@@ -11,6 +11,8 @@
     <link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/gif">
     <link href="https://fonts.googleapis.com/css?family=Exo+2:700|Exo:900i" rel="stylesheet">
 </head>
+
+<!--  -->
 <body class="bg-custom1">   
         
     <div class="row align-items-center sticky-top w-100 shadow bgcol1" id="header">
@@ -20,19 +22,43 @@
         </div>
         
         <div class="col offset-lg-2 hide-on-small-only row">
-            <a href="" class="text-light btn col-3 disabled">Home</a>
+            <a href="/mainUser" class="text-light btn col-3">Home</a>
             <div class="dropdown text-light col-3">
                 <button class="btn dropdown-toggle text-light bgcol1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     More
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <p class="dropdown-item disabled">{{ Auth::user()->name }}</p>
+                    <a class="dropdown-item" href="/profileUser">Profile</a>
                     <a class="dropdown-item" href="/feedUser">Feed</a>
-                    <a class="dropdown-item" href="#!">ss</a>
-                    <a class="dropdown-item" href="#!">ss</a>
                 </div>
             </div>
-            <a href="/profileUser" class="text-light btn col-3">Profile</a>
-            <a href="/" class="btn text-light col">Log Out</a>
+            <div class="btn col-3" aria-labelledby="navbarDropdown">
+                <a class="text-light" href="{{ route('logout') }}"onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                    {{ __('Logout') }}
+                </a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-8">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="h1">Hello, World!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col offset-1">
+                <div class="card">
+                    AD's
+                </div>
+            
+            </div>
         </div>
     </div>
     
