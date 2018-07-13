@@ -13,7 +13,7 @@
 </head>
 <body class="bg-custom1">   
         
-    <div class="row align-items-center sticky-top w-100 shadow" style="background-color:#6633ff" id="header">
+    <div class="row align-items-center sticky-top w-100 shadow bgcol1" id="header">
         <img src="/img/logo.png" class="col-1 pa" style="left:15%;">
         <div class="col col-md-3 offset-3 offset-lg-1 row">
             <h1 class="offset-lg-3 pt-2" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">HOHelp</h1>
@@ -26,13 +26,19 @@
                     More
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item disabled" href="">{{ __('Login') }}</a>
+                    <a class="dropdown-item" href="/profileUser">Profile</a>
                     <a class="dropdown-item" href="/feedUser">Feed</a>
-                    <a class="dropdown-item" href="#!">ss</a>
-                    <a class="dropdown-item" href="#!">ss</a>
                 </div>
             </div>
-            <a href="/profileUser" class="text-light btn col-3 disabled">Profile</a>
-            <a href="/" class="btn text-light col">Log Out</a>
+            <div class="btn col-3" aria-labelledby="navbarDropdown">
+                <a class="text-light" href="{{ route('logout') }}"onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                    {{ __('Logout') }}
+                </a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+            </div>
         </div>
     </div>
     
