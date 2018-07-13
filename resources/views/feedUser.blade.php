@@ -15,6 +15,7 @@
 </head>
 <body class="bg-custom1">   
         
+    <!-- header -->
     <div class="row align-items-center sticky-top w-100 shadow bgcol1" id="header">
         <img src="/img/logo.png" class="col-1 pa" style="left:15%;">
         <div class="col col-md-3 offset-3 offset-lg-1 row">
@@ -23,6 +24,7 @@
         
         <div class="col offset-lg-2 hide-on-small-only row">
             <a href="/mainUser" class="text-light btn col-3">Home</a>
+            <!-- dropdown -->
             <div class="dropdown text-light col-3">
                 <button class="btn dropdown-toggle text-light bgcol1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     More
@@ -46,7 +48,7 @@
     </div>
     
     
-    
+    <!-- main content -->
     <div class="container mt-5">
         <h1 style="font-family: 'Exo', sans-serif; text-align: center; margin-top:2%; color:white;">Accepted Request</h1>
         <div class="row">
@@ -86,6 +88,8 @@
                     </div>
                 </div>
             </div>
+            
+            <!-- Ad box -->
             <div class="col offset-1">
                 <div class="card ad">
                      AD's
