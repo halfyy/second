@@ -16,7 +16,7 @@
     <div class="row align-items-center sticky-top w-100 shadow bgcol1" id="header">
         <img src="/img/logo.png" class="col-1 pa l-15">
         <div class="col col-md-3 offset-3 offset-lg-1 row">
-            <a class="offset-lg-3 pt-2 fs-40" href="/mainUser" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">HandOfHelp</a>
+            <a class="offset-lg-3 pt-2 fs-40" href="/mainUser" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">HOHelp</a>
         </div>
         
         <div class="col offset-lg-2 hide-on-small-only row">
@@ -75,7 +75,7 @@
                 <p class="h2 text-center">
                     You haven't made any requests yet
                 </p>
-                <a href="" class="btn bgcol1 text-light col-4 offset-4">Make Request</a>    
+                <a href="/createRequest" class="btn bgcol1 text-light col-4 offset-4">Make Request</a>    
             </div>
         </div> 
     </div>
