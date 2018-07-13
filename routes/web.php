@@ -32,6 +32,9 @@ Route::get('/profileVol', function () {
 Route::get('/feedVol',function(){
     return view('feedVol');
 });
+Route::get('/createRequest',function(){
+    return view('request');
+});
 
 
 Auth::routes();
