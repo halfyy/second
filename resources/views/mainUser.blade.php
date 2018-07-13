@@ -50,14 +50,24 @@
                 <div class="card">
                     <div class="card-body">
                         <p class="h1">Hello, World!</p>
+                        <div class="container mt-4">
+                            <div class="card bg-secondary">
+                                <div class="card-body">
+                                    <p class="h2 text-light">hi</p>
+                                </div>   
+                            </div>
+                        </div>  
                     </div>
+                    
                 </div>
             </div>
             <div class="col offset-1">
-                <div class="card">
+                <div class="card ad">
                     AD's
                 </div>
-            
+                <div class="card ad mt-3">
+                    AD's
+                </div>
             </div>
         </div>
     </div>
