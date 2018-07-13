@@ -31,6 +31,7 @@
                     <p class="dropdown-item disabled">{{ Auth::user()->name }}</p>
                     <a class="dropdown-item" href="/profileUser">Profile</a>
                     <a class="dropdown-item" href="/feedUser">Feed</a>
+                    <a class="dropdown-item" href="/createRequest">Make request</a>
                 </div>
             </div>
             <div class="btn col-3" aria-labelledby="navbarDropdown">
