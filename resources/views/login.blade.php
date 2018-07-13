@@ -55,8 +55,8 @@
                   <div class="card shadow-lg">
                     <img class="card-img-top" src="/img/2 img.png" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <h5 class="card-title">Change your Life</h5>
+                      <p class="card-text">We only have one life. So why not change it right now? Do good!</p>
                     </div>
                   </div>
                   <div class="card shadow-lg">
