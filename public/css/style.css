@@ -1,3 +1,4 @@
+/* Bg's */
 .bg-custom1{
     background-image: url(/img/bg-custom1.png);
     height:700px;
@@ -6,6 +7,13 @@
 }
 .bgcol1{
     background-color: #6633ff;
+}
+/* Utility classes */
+.h-500{
+    height:500px;
+}
+.h-300{
+    height:300px;
 }
 .fs-30{
     font-size:20px;
@@ -24,9 +32,6 @@
 }
 .fs-70{
     font-size:70px;
-}
-.h300{
-    height:500px;
 }
 .pt-10{
     padding-top:10%;
@@ -52,6 +57,8 @@
 .mb-15{
     margin-bottom:15%;
 }
+
+/* classes for adapting */
 @media only screen and (min-width: 993px) {
   .jir {
     font-size:90px !important;
