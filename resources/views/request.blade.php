@@ -54,13 +54,13 @@
                         <div class="container mt-4">
                             <div class="card bg-secondary">
                                 <div class="card-body">
-                                    <form>
+                                    <div class="form-group">
                                         
                                         <div class="input-group mb-3">
                                           <div class="input-group-prepend">
-                                            <span class="input-group-text" id="basic-addon1">Meeteing point:</span>
+                                            <span class="input-group-text" id="basic-addon1">Meeteing place:</span>
                                           </div>
-                                          <input type="text" class="form-control" placeholder="Adress..." aria-label="Username" aria-describedby="basic-addon1">
+                                          <input id="place" type="text" class="form-control{{ $errors->has('phone') ? ' is-invalid' : '' }}" name="place" value="{{ old('email') }}" required>
                                         </div>
 
                                         <div class="input-group mb-3">
@@ -79,7 +79,7 @@
 
                                         <button type="submit" class="btn btn-success mt-3 offset-9">Create a request</button>
 
-                                    </form>
+                                    </div>
                                 </div>   
                             </div>
                         </div>  

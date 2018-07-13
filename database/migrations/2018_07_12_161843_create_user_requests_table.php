@@ -16,8 +16,9 @@ class CreateUserRequestsTable extends Migration
         Schema::create('user_requests', function (Blueprint $table) {
             $table->increments('id');
             $table->string('objective');
+            $table->string('place');
             $table->string('description');
-            $table->string('smallDesc');
+            $table->string('time');
             $table->integer('userid');;
             $table->timestamps();
         });
