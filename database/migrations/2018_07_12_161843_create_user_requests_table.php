@@ -15,10 +15,10 @@ class CreateUserRequestsTable extends Migration
     {
         Schema::create('user_requests', function (Blueprint $table) {
             $table->increments('id');
-            $tabel->string('objective')
-            $tabel->string('description')
-            $tabel->string('small desc')
-            $tabel->integer('userid')
+            $table->string('objective');
+            $table->string('description');
+            $table->string('smallDesc');
+            $table->integer('userid');;
             $table->timestamps();
         });
     }
