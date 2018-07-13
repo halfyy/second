@@ -10,7 +10,7 @@ class UserRequest extends Model
     use Notifiable;
     
     protected $fillable = [
-        'objective', 'descripton', 'smallDesc',
+        'objective', 'place','descripton', 'time',
     ];
 
     protected $hidden = [
