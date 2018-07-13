@@ -58,9 +58,9 @@
                                         
                                         <div class="input-group mb-3">
                                             <div class="input-group-prepend">
-                                              <span class="input-group-text" id="basic-addon1">Adress</span>
+                                              <span class="input-group-text" id="basic-addon1">Address</span>
                                             </div>
-                                            <input type="text" class="form-control" placeholder="Adress..." aria-label="Username" aria-describedby="basic-addon1">
+                                            <input type="text" class="form-control" placeholder="Address..." aria-label="Username" aria-describedby="basic-addon1">
                                         </div>
 
                                         <div class="input-group mb-3">
