@@ -23,7 +23,6 @@ Route::get('/profileUser', function () {
 Route::get('/feedUser',function(){
     return view('feedUser');
 });
-
 Route::get('/mainVol', function () {
     return view('mainVol');
 });
