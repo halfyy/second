@@ -50,11 +50,36 @@
             <div class="col-8">
                 <div class="card">
                     <div class="card-body">
-                        <p class="h1">Hello, World!</p>
+                        <p class="h1">Make Request</p>
                         <div class="container mt-4">
                             <div class="card bg-secondary">
                                 <div class="card-body">
-                                    <p class="h2 text-light">hi</p>
+                                    <form>
+                                        
+                                        <div class="input-group mb-3">
+                                          <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">Meeteing point:</span>
+                                          </div>
+                                          <input type="text" class="form-control" placeholder="Adress..." aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+
+                                        <div class="input-group mb-3">
+                                          <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">Objective:</span>
+                                          </div>
+                                          <input type="text" class="form-control" placeholder="What volunteer shoud do..." aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">Description</span>
+                                            </div>
+                                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                                        </div>
+
+                                        <button type="submit" class="btn btn-success mt-3 offset-9">Create a request</button>
+
+                                    </form>
                                 </div>   
                             </div>
                         </div>  
