@@ -50,16 +50,28 @@
             <div class="col-8">
                 <div class="card">
                     <div class="card-body">
-                        <p class="h1">Hello, World!</p>
+                        <p class="h1">Your active requests</p>
                         <div class="container mt-4">
                             <div class="card bg-secondary">
                                 <div class="card-body">
-                                    <p class="h2 text-light">hi</p>
+                                    <p class="h2 text-light"> you have no requests yet </p>
                                 </div>   
                             </div>
                         </div>  
                     </div>
-                    
+                </div>
+                
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <p class="h1">Your active request</p>
+                        <div class="container mt-4">
+                            <div class="card bg-secondary">
+                                <div class="card-body">
+                                    <p class="h2 text-light"> you have no request yet </p>
+                                </div>   
+                            </div>
+                        </div>  
+                    </div>
                 </div>
             </div>
             <div class="col offset-1">

@@ -57,24 +57,31 @@
                                     <div class="form-group">
                                         
                                         <div class="input-group mb-3">
-                                          <div class="input-group-prepend">
-                                            <span class="input-group-text" id="basic-addon1">Meeteing place:</span>
-                                          </div>
-                                          <input id="place" type="text" class="form-control{{ $errors->has('phone') ? ' is-invalid' : '' }}" name="place" value="{{ old('email') }}" required>
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text" id="basic-addon1">Meeteing place:</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Adress..." aria-label="Username" aria-describedby="basic-addon1">
                                         </div>
 
                                         <div class="input-group mb-3">
-                                          <div class="input-group-prepend">
-                                            <span class="input-group-text" id="basic-addon1">Objective:</span>
-                                          </div>
-                                          <input type="text" class="form-control" placeholder="What volunteer shoud do..." aria-label="Username" aria-describedby="basic-addon1">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">Objective:</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="What volunteer should do..." aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                        
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text" id="basic-addon1">Time:</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="When volunteer should come..." aria-label="Username" aria-describedby="basic-addon1">
                                         </div>
 
                                         <div class="input-group">
                                             <div class="input-group-prepend">
-                                                <span class="input-group-text">Description</span>
+                                                <span class="input-group-text">Description:</span>
                                             </div>
-                                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                                            <textarea class="form-control" aria-label="With textarea"  placeholder="describe your problem..."></textarea>
                                         </div>
 
                                         <button type="submit" class="btn btn-success mt-3 offset-9">Create a request</button>
