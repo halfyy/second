@@ -14,7 +14,14 @@
 </head>
 <body class="bg-custom1">   
         
-    <!-- Headerа нет -->
+    <!-- Header -->
+    <div class="row align-items-center sticky-top w-100 shadow bgcol1" id="header">
+        <img src="/img/logo.png" class="col-1 pa" style="left:15%;">
+        <div class="col col-md-3 offset-3 offset-lg-1 row">
+            <h1 class="offset-lg-3 pt-2" style="color:ghostwhite; font-family: 'Exo', sans-serif;" class="col">HOHelp</h1>
+        </div>
+    </div>
+    
     
     <!-- Login and reg btn -->
     <div class="container mt-5">

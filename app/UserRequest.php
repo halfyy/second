@@ -3,17 +3,11 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Notifiable;
 
 class UserRequest extends Model
-{
-    
-    use Notifiable;
-    
+{   
     protected $fillable = [
-        'objective', 'place','descripton', 'time',
-    ];
-
-    protected $hidden = [
-        'userid',
+        'objective', 'adress','descripton', 'timee',
     ];
 }

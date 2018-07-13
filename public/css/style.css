@@ -1,12 +1,16 @@
 /* Bg's */
 .bg-custom1{
     background-image: url(/img/background_4.png);
+    background-image: url(/img/background3.png);
+
     height:700px;
     background-size: 120% 180%;
     background-repeat: no-repeat;
 }
 .bgcol1{
     background-color: #7163d4;
+    background-color: #4d7ecc;
+
 }
 /* Utility classes */
 .h-500{
