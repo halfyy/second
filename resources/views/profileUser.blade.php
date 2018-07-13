@@ -26,7 +26,7 @@
                     More
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item disabled" href="">{{ __('Login') }}</a>
+                    <a class="dropdown-item disabled" href="">{{ Auth::user()->name }}</a>
                     <a class="dropdown-item" href="/profileUser">Profile</a>
                     <a class="dropdown-item" href="/feedUser">Feed</a>
                 </div>
@@ -69,7 +69,7 @@
     </div>
     
     <div class="container mt-5">
-        <div class="card h300">
+        <div class="card h-500">
             <div class="card-body text center border-dark">
                 <p class="h2 text-center">
                     You haven't made any requests yet
