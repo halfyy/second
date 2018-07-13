@@ -50,17 +50,52 @@
     <div class="container mt-5">
         <h1 style="font-family: 'Exo', sans-serif; text-align: center; margin-top:2%; color:white;">Accepted Request</h1>
         <div class="row">
-            <div class="card col-9 mt-3">
+            <div class="card col-8">
                 <div class="row">
-                    <img src="/img/1 vol.jpg" class="h-100 col-3">
-                    <div class="card-body">
+                    <img src="/img/avatar.png" class="h-100 col-3">
+                    <div class="card-body col-4">
                         <div class="text-grey col">
-                            <p class="h1"> Jared Lont </p>
+                            <p class="h2"> Jared Lont </p>
+                            <p class="h5"> volunteer </p>
+                            <a href="/profileVol" class="text-light btn btn-primary">Check profile</a>
                         </div>
+                    </div>
+                    <div class="card-body col-4">
+                        <div class="text-grey col">
+                            <p class="h4 mt-4"> Want's help you </p>
+                        </div>
+                        <button type="button" class="btn btn-success">Accept</button>
+                        <button type="button" class="btn btn-danger ml-5">Decline</button>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <img src="/img/avatar.png" class="h-100 col-3">
+                    <div class="card-body col-4">
+                        <div class="text-grey col">
+                            <p class="h2"> Mark Brown </p>
+                            <p class="h5"> volunteer </p>
+                            <a href="/profileVol" class="text-light btn btn-primary">Check profile</a>
+                        </div>
+                    </div>
+                    <div class="card-body col-4">
+                        <div class="text-grey col">
+                            <p class="h4 mt-4"> Want's help you </p>
+                        </div>
+                        <button type="button" class="btn btn-success">Accept</button>
+                        <button type="button" class="btn btn-danger ml-5">Decline</button>
                     </div>
                 </div>
             </div>
+            <div class="col offset-1">
+                <div class="card ad">
+                     AD's
+                </div>
+                <div class="card ad mt-3">
+                     AD's
+                </div>
+            </div>
         </div>
+        
     </div>
     
     

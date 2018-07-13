@@ -63,11 +63,11 @@
                 
                 <div class="card mt-4">
                     <div class="card-body">
-                        <p class="h1">Your active request</p>
+                        <p class="h1">Answers on your requests</p>
                         <div class="container mt-4">
                             <div class="card bg-secondary">
                                 <div class="card-body">
-                                    <p class="h2 text-light"> you have no request yet </p>
+                                    <p class="h2 text-light"> no one answered on your requests :( </p>
                                 </div>   
                             </div>
                         </div>  
