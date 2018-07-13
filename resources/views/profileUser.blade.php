@@ -46,7 +46,7 @@
     <div class="container mt-5">
         <div class="row">
             <div class="card col-3 offset-1">
-                <img class="col-12 mb-3" src="/img/ 1needy.jpg">
+                <img class="col-12 mb-3" src="/img/avatar.png">
             </div>
             <div class="text-dark text-center col-6 card offset-1">
                 <div class="card-body">
@@ -56,7 +56,7 @@
                         <div class="w-100"></div>
                         <p class="h3 col card mt-2">Age: {{ Auth::user()->age }} </p>
                         <div class="w-100"></div>
-                        <p class="h3 col card mt-2"> Phone : {{ Auth::user()->phone }} </p>
+                        <p class="h3 col card mt-2"> E-mail : {{ Auth::user()->email }} </p>
                     </div>
                 </div>
             </div>
